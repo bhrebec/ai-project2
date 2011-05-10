@@ -46,7 +46,7 @@ class FileTest {
 					current_data = Integer.parseInt(s);	//turn into integer
 					act_lines++;						//read each line
 					
-					if (current_data <= 0) {	// Check data is positive
+					if (current_data < 0) {	// Check data begins at 0
 						System.out.println("\n\tError: Data at file line " + (act_lines) + " is negative.");
 						System.exit(0);
 					}
