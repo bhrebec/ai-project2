@@ -136,7 +136,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         print "Usage: python project2.py <input file> [<# of generations>]"
 
-    gens = 20
+    gens = 17
     if len(sys.argv) > 2:
         gens = int(sys.argv[2])
 
